@@ -1,0 +1,151 @@
+2011-08-30 20:31:39 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 3
+            [username] => user
+            [group_id] => 1
+            [created] => 2011-08-30 20:12:55
+            [modified] => 2011-08-30 20:12:55
+        )
+
+)
+
+Aco: controllers/Users/initdb in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/components/acl.php, line 273]
+2011-08-30 20:31:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/debugger.php:683) in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/controller.php, line 742]
+2011-09-01 14:22:25 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => admin
+            [group_id] => 1
+            [created] => 2011-08-30 20:12:39
+            [modified] => 2011-08-30 20:12:39
+            [email] => 
+            [first_name] => 
+            [last_name] => 
+        )
+
+)
+
+Aco: controllers/Books/index in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/components/acl.php, line 273]
+2011-09-01 14:22:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/debugger.php:683) in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/controller.php, line 742]
+2011-09-01 14:24:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => admin
+            [group_id] => 1
+            [created] => 2011-08-30 20:12:39
+            [modified] => 2011-08-30 20:12:39
+            [email] => 
+            [first_name] => 
+            [last_name] => 
+        )
+
+)
+
+Aco: controllers/Groups/build_acl in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/components/acl.php, line 273]
+2011-09-01 14:24:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/debugger.php:683) in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/controller.php, line 742]
+2011-09-01 14:24:57 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => admin
+            [group_id] => 1
+            [created] => 2011-08-30 20:12:39
+            [modified] => 2011-08-30 20:12:39
+            [email] => 
+            [first_name] => 
+            [last_name] => 
+        )
+
+)
+
+Aco: controllers/Groups/build_acl in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/components/acl.php, line 273]
+2011-09-01 14:24:57 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/debugger.php:683) in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/controller.php, line 742]
+2011-09-01 14:25:41 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => admin
+            [group_id] => 1
+            [created] => 2011-08-30 20:12:39
+            [modified] => 2011-08-30 20:12:39
+            [email] => 
+            [first_name] => 
+            [last_name] => 
+        )
+
+)
+
+Aco: controllers/Widgets/build_acl in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/components/acl.php, line 273]
+2011-09-01 14:25:41 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/debugger.php:683) in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/controller.php, line 742]
+2011-09-03 21:02:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 3
+            [username] => user
+            [group_id] => 3
+            [created] => 2011-08-30 20:12:55
+            [modified] => 2011-08-30 20:23:33
+            [email] => 
+            [first_name] => 
+            [last_name] => 
+        )
+
+)
+
+Aco: controllers/Users/userAddBook in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/components/acl.php, line 273]
+2011-09-03 21:02:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/debugger.php:683) in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/controller.php, line 742]
+2011-09-03 21:08:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/debugger.php:683) in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/controller.php, line 742]
+2011-09-03 21:09:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/debugger.php:683) in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/controller.php, line 742]
+2011-09-03 21:09:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/debugger.php:683) in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/controller.php, line 742]
+2011-09-03 21:24:34 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 3
+            [username] => user
+            [group_id] => 3
+            [created] => 2011-08-30 20:12:55
+            [modified] => 2011-08-30 20:23:33
+            [email] => 
+            [first_name] => 
+            [last_name] => 
+        )
+
+)
+
+Aco: controllers/Books/userListBooks in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/components/acl.php, line 273]
+2011-09-03 21:24:34 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/debugger.php:683) in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/controller/controller.php, line 742]
+2011-09-03 21:30:18 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2006]
+2011-09-03 21:30:18 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2008]
+2011-09-03 21:30:18 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2011]
+2011-09-03 21:30:18 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2013]
+2011-09-03 21:30:18 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT `Book`.`` FROM `books` AS `Book` LEFT JOIN `users` AS `User` ON (`Book`' at line 1</span> in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 684]
+2011-09-03 21:30:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/XAMPP/xamppfiles/htdocs/kh/app/views/books/user_list_books.ctp, line 13]
+2011-09-03 21:31:06 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2006]
+2011-09-03 21:31:06 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2008]
+2011-09-03 21:31:06 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2011]
+2011-09-03 21:31:06 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2013]
+2011-09-03 21:31:06 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT `Book`.`` FROM `books` AS `Book` LEFT JOIN `users` AS `User` ON (`Book`' at line 1</span> in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 684]
+2011-09-03 21:31:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/XAMPP/xamppfiles/htdocs/kh/app/views/books/user_list_books.ctp, line 13]
+2011-09-03 21:31:47 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2006]
+2011-09-03 21:31:47 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2008]
+2011-09-03 21:31:47 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2011]
+2011-09-03 21:31:47 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 2013]
+2011-09-03 21:31:47 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT `Book`.`` FROM `books` AS `Book` LEFT JOIN `users` AS `User` ON (`Book`' at line 1</span> in [/Applications/XAMPP/xamppfiles/htdocs/kh/cake/libs/model/datasources/dbo_source.php, line 684]
+2011-09-03 21:31:47 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/XAMPP/xamppfiles/htdocs/kh/app/views/books/user_list_books.ctp, line 13]
