@@ -3,6 +3,10 @@
 class UsersController extends AppController {
 
 	var $name = 'Users';
+	
+	var $helpers = array('Html', 'Form', 'Ajax', 'Javascript');
+	
+	var $components = array('RequestHandler');
 
 	function login() {
 		
@@ -21,8 +25,23 @@ class UsersController extends AppController {
 	function beforeFilter() {
 		parent::beforeFilter();
 		//$this->Auth->allow(array('*'));
-		$this->Auth->allow(array('register','thanks','login', 'logout', 'myprofile', 'view', 'edit'));
+		$this->Auth->allow(array('register','thanks','login', 'logout', 'myprofile', 'view', 'edit', 'getCounties'));
 	}
+	
+	function getCounties() {
+		$this->set('options',
+			$this->User->County->find('list',
+				array(
+					'conditions' => array(
+						'County.city_id' => $this->data['User']['city_id']
+					),
+					'group' => array('County.county_name')
+				)
+			)
+		);
+		$this->render('/users/ajax_dropdown');
+	}
+
 	/*
 	 function initDB() {
 		$group =& $this->User->Group;
@@ -83,6 +102,10 @@ class UsersController extends AppController {
 			// should now be nulled so it doesnÕt get render in the HTML if the save() fails
 			$this->data['User']['password'] = null;
 		}
+		$cities = $this->User->City->find('list');
+		$counties = array();
+		
+		$this->set(compact('counties', 'cities'));
 	}
         
 	function thanks() {
@@ -132,6 +155,17 @@ class UsersController extends AppController {
 		}
 		if (empty($this->data)) {
 			$this->data = $this->User->read(null, $id);
+			$counties = $this->User->County->find('list',
+				array(
+					'conditions' => array(
+						'County.city_id' => $this->data['User']['city_id']
+					),
+					'group' => array('County.county_name')
+				)
+			);
+			$cities = $this->User->City->find('list');
+			$this->set(compact('counties', 'cities'));
+			
 		}
 		$groups = $this->User->Group->find('list');
 		$this->set(compact('groups'));

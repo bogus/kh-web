@@ -3,6 +3,12 @@ class CitiesController extends AppController {
 
 	var $name = 'Cities';
 
+	function beforeFilter() {
+		parent::beforeFilter();
+		//$this->Auth->allow(array('*'));
+		$this->Auth->allow(array('index'));
+	}
+	
 	function index() {
 		$this->City->recursive = 0;
 		$this->set('cities', $this->paginate());

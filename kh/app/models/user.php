@@ -87,8 +87,22 @@ class User extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
-			)
-			);
+			),
+		'City' => array(
+			'className' => 'City',
+			'foreignKey' => 'city_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'County' => array(
+			'className' => 'County',
+			'foreignKey' => 'county_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		)
+	);
 
 	var $hasMany = array(
 		'Post' => array(
