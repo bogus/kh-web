@@ -26,6 +26,8 @@
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
+		echo $html->charset('utf-8'); 
+	
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('cake.generic');
